@@ -12,15 +12,15 @@
 \begin{document}
 
   \begin{rSection}{Summary}
-    { {\bf Ju Lin } has a wide knowledge of DevOps, Web Programming, and System Administration. He is an expert in Python Programming, Operating System, and Kubernetes. He likes provisioning cloud resources by Infrastructure as Code. He is a passionate learner with endless curiosity and enjoys jumping out of the comfort zone. }
+    { {\bf Ju Lin } has a wide knowledge on AWS, Kubernetes, Web Programming, and System Administration. He is a passionate learner with endless curiosity and enjoys jumping out of the comfort zone. }
   \end{rSection}
 
   \begin{rSection}{Experience}
 
     \begin{rSubsection}{Workday}{ Mar 2017 - }{Senior DevOps Engineer}{Auckland, New Zealand}
     \item Developed and maintained a statuspage-like API and command line tools. It has provided health data for all customer-facing services over 10+ data centers for a statuspage product. Outage is rare.
-    \item Developed and maintained a continuous delivery pipeline, using Jenkins and Chef. The applications were packaged into formats such as RPM, wheel, etc. A set of chef recipes is responsible for configuring CentOS, managing system services, setup monitoring agents, etc on bare metals.
-    \item Maintained a fleet of AWS resources via Terraform. Inside the VPC, there are a VPC with public and private subnets in 3 availability zones, ALB with security groups attached, NAT gateway, internet gateway, certificates issued by ACM, domain names in Route53, a transit gateway tunneling back to private cloud data centers, etc.
+    \item Developed and maintained a continuous delivery pipeline, using Jenkins and Chef. The applications were packaged into formats such as RPM, wheel, container images, etc. A set of chef recipes is responsible for configuring CentOS, managing system services, setup monitoring agents, etc on bare metals.
+    \item Maintained a fleet of AWS resources via Terraform, in which there are a VPC with public and private subnets in 3 availability zones, ALB with security groups attached, NAT gateway, internet gateway, certificates issued by ACM, domain names in Route53, a transit gateway tunneling back to private cloud data centers, etc.
     \item Developed and maintained a Kubernetes cluster using EKS, with EC2 in private subnets as worker nodes. A fleet of applications such as Redis, PostgreSQL, InfluxDB, React Applications run on it. They're managed by Kubernetes YAMLs using resources such as Deployment, DeamonSet, ConfigMap, PVC, Ingress, etc.
     \item Worked with internal operation centers to perform level-1 triage on critical incidents. Built monitoring dashboards and time series queries providing more insights into the production environments.
     \end{rSubsection}
